@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.camera"
+        minSdkVersion 17
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':abbyyOcrsdkclient')
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.github.japgolly.android:svg-android:2.0.6'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/acra-4.6.2.jar')
+}

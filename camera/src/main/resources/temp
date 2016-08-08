@@ -1,0 +1,19 @@
+
+
+File f = Environment.getExternalStorageDirectory();
+f = new File(f.getAbsolutePath()+"/.temp/");
+//f = new File(f.getAbsolutePath());
+
+String blah = "";
+for (File temp : f.listFiles()) {
+	blah += "|" + temp.getName(); 
+    if (temp.getName().equals("picture.jpg")) {
+        f = temp;
+        break;
+    }
+    else{
+    	//temp.delete();
+    }
+}
+
+tthis.post_error( "Camera, blah: " + blah );

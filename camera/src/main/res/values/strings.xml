@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">kwee</string>
+   <string name="action_settings">settings</string>
+   <string name="hello_world">hi</string>
+   <string name="tap">tap to roll it</string>
+</resources>
