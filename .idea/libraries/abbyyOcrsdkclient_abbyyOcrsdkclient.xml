@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="abbyyOcrsdkclient.abbyyOcrsdkclient">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/abbyyOcrsdkclient/build/libs/abbyyOcrsdkclient.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
