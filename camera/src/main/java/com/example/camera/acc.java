@@ -1,23 +1,16 @@
 package com.example.camera;
 
-//import java.util.regex.Pattern;
-
-//import java.util.ArrayList;
-//import java.util.List;
-
-import java.util.Random;
-
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
-//import android.os.Environment;
-//import android.util.Patterns;
 import android.os.Build;
+
+import java.util.Random;
 
 //get acc from phone
 public class acc {
 
-//	get first acc from phone
+        //	get first acc from phone
         public static String get_acc( Context context ) {
 
 //		get first one

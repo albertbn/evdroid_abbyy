@@ -72,7 +72,7 @@ public class ocr {
 
                 try{
 
-                        final ArrayList<NameValuePair> nameValuePairs = new  ArrayList<NameValuePair>();
+                        final ArrayList<NameValuePair> nameValuePairs = new  ArrayList<>();
                 nameValuePairs.add(new BasicNameValuePair("text",text));
                 nameValuePairs.add(new BasicNameValuePair("account",mp.get("account")));
                 nameValuePairs.add(new BasicNameValuePair("id_inv",mp.get("id_inv")));

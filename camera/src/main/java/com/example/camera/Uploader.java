@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.HashMap;
 
-//import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -18,7 +17,6 @@ import org.apache.http.message.BasicNameValuePair;
 //import android.app.Activity;
 import android.graphics.Bitmap;
 import android.util.Base64;
-//import android.widget.Toast;
 
 public class Uploader {
 
@@ -28,7 +26,7 @@ public class Uploader {
         final static int SLEEP_UPLOAD_IMG_MS = 3000;
 
         //credit: http://stackoverflow.com/questions/15759195/reduce-size-of-bitmap-to-some-specified-pixel-in-android
-        Bitmap getResizedBitmap(Bitmap image, int maxSize) {
+        Bitmap getResizedBitmap ( Bitmap image, int maxSize ) {
         int width = image.getWidth();
         int height = image.getHeight();
 
@@ -48,7 +46,7 @@ public class Uploader {
         /**
          * upload to abbyy first and then store the img for the ref model
          */
-        public void upload_via_ocr_4perf( final Bitmap _bitmap, final MainActivity act, final String account ){
+        public void upload_via_ocr_4perf ( final Bitmap _bitmap, final MainActivity act, final String account ) {
 
                 final Uploader tthis = this;
 
